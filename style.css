@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+.body-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-back{
+  width: 100vw;
+  height: 14vh;
+}
+.header{
+  width: 100vw;
+  height: 14vh;
+  position: fixed;
+  background: rgb(169, 217, 155);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2%;
+}
+.header-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guitar-logo{
+  width: 10vh;
+  height: auto;
+  opacity: .2;
+  margin-top: 1%;
+  margin-left: 35%;
+  border-radius: 29%;
+}
+.header-menu{
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 3px solid rgb(191, 191, 191);
+  color: rgb(249, 77, 77);
+  font-size:124%;
+  font-family: Lobster;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 2%;
+
+}
+.menu-items{
+  display: flex;
+}
+.hamburger-bar{
+  height: 4vh;
+  width: 8vw;
+  background-color: rgb(249, 77, 77);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  opacity: .8;
+  margin-top: 8%;
+  margin-right: 5%;
+  border-radius: 13.5%;
+}
+.whiteline{
+  height: 5px;
+  width: 26px;
+  background-color: white;
+  border-radius: 13.5%;
+}
+@@media screen and (width-min: 500px) {
+  body{
+    display: none;
+  }
+}
